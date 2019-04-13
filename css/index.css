@@ -4,13 +4,13 @@
     flex-direction: column;
     width: 100%;
   }
-  .home img {
+  .home .space-images img {
     width: 100%;
   }
-  .home .sky {
+  .home .space-images .sky {
     display: none;
   }
-  .home .launch {
+  .home .space-images .launch {
     display: none;
   }
   .home .walk {
@@ -20,20 +20,23 @@
     margin-top: 20px;
     width: 95%;
   }
-  .home .walk-img {
+  .home .walk .walk-img {
     width: 100%;
     padding: 10px;
   }
-  .home .walk p {
+  .home .walk .walk p {
     width: 100%;
   }
-  .home .walk-text {
+  .home .walk .walk-text {
     padding: 10px;
   }
-  .home .walk .btn {
+  .home .walk .walk .btn {
     width: 100%;
     padding: 15px;
   }
+}
+.width {
+  width: 100%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
