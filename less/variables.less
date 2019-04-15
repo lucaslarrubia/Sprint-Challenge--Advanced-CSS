@@ -24,3 +24,57 @@
 @border-real: #dee2e6;
 
 // Mobile var
+@phone: ~"(max-width: 500px)";
+
+@media @phone {
+    .home {
+
+
+
+        .space-images {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        
+
+        img {
+            width: 100%;
+        }
+
+        .sky {
+            display: none;
+        }
+
+        .launch {
+            display: none;
+        }
+    }
+
+        .walk {
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            width: 95%;
+        
+
+        .walk-img {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .walk p {
+            width: 100%;
+        }
+
+        .walk-text {
+            padding: 10px;
+        }
+
+        .walk .btn {
+            width: 100%;
+            padding: 15px;
+        }
+    }
+}
+}
